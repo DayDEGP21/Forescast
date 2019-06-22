@@ -1,19 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="clima">
 	<head>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 		<title>Clima_Day</title>
 		<link rel="stylesheet" href="style.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	</head>
-	<body>
+	<body ng-controller="temperatura">
 
 		<div class="container no1">
 			<div class="row"> 
 				<div class="col-md-6 tit">Forecast</div>
-				<div class="col-md-4"></div>
-				<div class="col-md-1">...</div>
-				<div class="col-md-1">...</div>
+				<div class="col-md-4 sut"></div>
+				<div class="col-md-1 sut">...</div>
+				<div class="col-md-1 sut">...</div>
 			</div>
 		</div>
 
@@ -24,9 +24,12 @@
 				<div class="col-md-6"><p class="pais"> "País" </p> <br> <p class="subt"> "Día, Hora" <br> "..." </p></div>
 				<div class="col-md-6"><img src="http://www.renta-casa.com.mx/blog/wp-content/uploads/2017/02/clima-acamilpa.png"><br><p class="subt"> Prob. de precipitaciones: <br> Humedad: <br> Viento: </p></div>
 			</div>
-		</div>
+		</div> 
 
-		<script type="script.js"></script>
-		<script type="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.min.js"></script>
+		<input type="text" ng-model="Lugar" name="">
+		<button ng-click="buscar(Lugar)">Siguiente</button> 
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.min.js"></script>
+		<script src="script.js"></script>
+		
 	</body>
 </html>

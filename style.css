@@ -14,6 +14,11 @@ body {
 	font-size: 30px;
 }
 
+.sut {
+	color: white;
+	font-size: 25px;	
+}
+
 img	{
 	height: 300px;
 }
