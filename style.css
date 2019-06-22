@@ -1,0 +1,33 @@
+
+body {
+	background: url(https://i.pinimg.com/originals/50/0c/48/500c4879bd825ad4b722271115b88fb6.jpg);
+}
+
+.no1 {
+	background-color: #000000;
+	opacity: 0.5;
+	height: 50px;
+}
+
+.tit {
+	color: white;
+	font-size: 30px;
+}
+
+img	{
+	height: 300px;
+}
+
+.esp {
+	height: 140px;
+}
+
+.pais {
+	font-size: 35px;
+	color: white;
+}
+
+.subt {
+	color: white;
+	font-size: 30px;
+}
